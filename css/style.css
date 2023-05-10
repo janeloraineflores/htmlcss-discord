@@ -151,8 +151,66 @@ main > section {
     width: 1200px;
 }
 
-h2{
+main .medium-container h2{
     margin-bottom: 50px;
     background-image: url(../img/stars.svg);
     background-size: contain;
+}
+
+
+/* FOOTER */
+
+.footer-top, .footer-bottom{
+    background-color: #23272A;
+}
+
+.left-row{
+    width: 200px;
+    margin-right: 100px;
+}
+
+.left-row > * {
+    margin-bottom: 15px;
+}
+
+.image-italia img{
+    width: 20px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-blue{
+    color: #7083CC;
+}
+
+.left-row > .socialmedia i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.right-row {
+    display: flex;
+}
+
+.right-row ul li {
+    margin-bottom: 15px;
+
+}
+
+.right-row > .column {
+    margin-right: 100px;
+}
+
+.footer-bottom > .big-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+hr{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px#7289DA solid;
 }
