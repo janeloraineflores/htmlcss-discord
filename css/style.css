@@ -1,0 +1,158 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+body{
+    max-width: 100%;
+}
+
+
+/* HEADER */
+
+header{
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #DAA520;
+    display: flex;
+}
+
+nav > *{
+    padding: 5px;
+}
+
+.nav-small{
+    width: 25%;
+    
+}
+
+.nav-big{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/* MAIN */
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.background-blue{
+    background-color: #00008B;  
+}
+
+.background-blue > * {
+    width: 700px;
+    height: 300px;
+    background-color: #EE82EE;
+}
+
+.box-blue , .box-pink {
+    height: 300px;
+}
+
+.box-blue{
+    width: 30%;
+    background-color: #1E90FF;
+}
+
+.box-pink{
+    width: 20%;
+    background-color: #FFC0CB;
+}
+
+.background-grey{
+    background-color: #D3D3D3;
+}
+
+.box-green{
+    width: 750px;
+    height: 600px;
+    background-color: #228B22;
+}
+
+.background-black{
+    background-color: #23272A;
+}
+
+.box-big , .box-small {
+    height: 300px;
+}
+
+.box-small{
+    width: 15%;
+    background-color: #F08080;
+}
+
+.box-big{
+    width: 35%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.box-big > * {
+    height: 300px;
+    width: calc(100% / 4)
+}
+
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 1px;
+    padding-top: 20px
+}
+
+.container-footer{
+    background-color: #7FFFD4;
+    width: 750px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer > * {
+    background-color: #FFB6C1;
+    padding: 10px;
+}
+
+
+
+/* DEBUG */
+
+nav > * {
+    border: 2px dashed black;
+}
+
+.background-blue> * {
+    border: 2px dashed black;
+}
+
+.box-blue , .box-pink, .box-green, .box-big , .box-small{
+    border: 2px dashed black;
+}
+
+.box-big > * {
+    border: 2px dashed white;
+}
+
+.container-footer > * {
+    border: 2px dashed black;
+}
