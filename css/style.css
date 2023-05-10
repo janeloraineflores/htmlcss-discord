@@ -29,6 +29,11 @@ body{
     margin: 0 auto;
 }
 
+.medium-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 
 ul li{
     list-style-type: none
@@ -53,6 +58,14 @@ a{
     border-radius: 50px;
     color: white;
 }
+
+.button-blue{
+    background-color: #7289DA;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}
+
 
 h1{
     font-size: 3em;
@@ -129,8 +142,17 @@ main > section {
     background-color: #F5F5F5;
 }
 
+.medium-container > * {
+    text-align: center;
+}
 
 
+.big-image img{
+    width: 1200px;
+}
 
-
-
+h2{
+    margin-bottom: 50px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
