@@ -59,7 +59,7 @@ h1{
 }
 
 p{
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 30px;
     font-size: 20px
 }
@@ -117,14 +117,17 @@ p{
 
 /* MAIN */
 
-.image{
-    margin-right: 50px;
+main > section {
+    padding: 50px 0;
 }
 
-main > .big-container {
-    padding-top: 100px;
+.image, .text{
+    margin: 0 20px;
 }
 
+.background-lightgrey{
+    background-color: #F5F5F5;
+}
 
 
 
